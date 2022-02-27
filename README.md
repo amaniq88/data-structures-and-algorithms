@@ -1,5 +1,5 @@
 # Table of Contents
-1. [Code Challenge: Class 01]()
+1. [Code Challenge: Class 01](https://github.com/amaniq88/data-structures-and-algorithms/pull/1)
 
 # Reverse an Array
 to do the whiteboard process for the reverse array function withour using any built in function 
