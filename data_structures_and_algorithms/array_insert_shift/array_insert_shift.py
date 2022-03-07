@@ -1,7 +1,7 @@
 import math
 def insertShiftArray(arr , n):
    mid = math.floor(len(arr)/2)
-   arr = arr + [n]
+   arr.append(n)
    i = len(arr)
    
    while (i> mid):
@@ -12,3 +12,4 @@ def insertShiftArray(arr , n):
 
    arr[mid]=n
    return arr
+
