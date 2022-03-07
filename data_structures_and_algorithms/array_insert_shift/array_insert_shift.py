@@ -13,8 +13,3 @@ def insertShiftArray(arr , n):
    arr[mid]=n
    return arr
 
-
-  
-
-
-print(insertShiftArray([9,8,7,6,3,2,6], 5))
