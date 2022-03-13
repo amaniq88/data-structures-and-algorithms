@@ -3,6 +3,7 @@
 from hashlib import new
 from platform import node
 from re import A
+from tkinter.messagebox import NO
 
 
 class Node:
@@ -79,13 +80,8 @@ class LinkedList:
             temp = self.head
             newNode.nextval = temp
             self.head = newNode
-            
-     
 
 
-     
-    
-    
     def includes(self , value ): 
         '''
         Arguments: value
@@ -102,5 +98,54 @@ class LinkedList:
          
         return False # Data Not found
 
+    def insert_after(self, value, newElement):
+        '''
+        arguments: value, newElement
+        adds a new node with the given new value immediately after the first node that has the value specified
+        '''
+        current = self.head
+        if (self.includes(value) == False):
+            print("sorry the Node not on the linked list ")
+        while (current):
+            if current.dataval == value:
+                newNode = Node(newElement)
+                if (current.nextval == None ):
+                    current.nextval = newNode
+                    newNode.nextval = None
+                    print(newNode.nextval)
+                else:
+                    temp = current.nextval     
+                    current.nextval = newNode
+                    newNode.nextval = temp
+                break
+            current = current.nextval
+
+    def insert_before(self, value, newElement):
+        '''
+        arguments: value, newElement
+        adds a new node with the given new value immediately before the first node that has the value specified
+        '''
+        current = self.head
+        if (self.includes(value) == False):
+            print("sorry the Node not on the linked list ")
+        while (current):
+            if current.dataval == value:
+                if ( current.dataval == self.head.dataval):
+                    self.insert(newElement)
+                else:
+                    newNode = Node(newElement) 
+                    previous_data.nextval = newNode
+                    newNode.nextval = current
+                    break
+            previous_data = current
+            current = current.nextval
+
+    
+
+            
+    
+                
 if __name__ == '__main__':
-    ll = LinkedList()
+    a = LinkedList()
+  
+    
