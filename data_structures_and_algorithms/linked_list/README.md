@@ -2,7 +2,12 @@
 Node and Linked List using python classes 
 
 ## Whiteboard Process
-<!-- Embedded whiteboard image -->
+Append
+![Append method whiteboard ](./append_method.jpg)
+Insert After 
+![Insert After method whitboard ](./insert_after.jpg)
+Insert Before 
+![Insert Before method whitboard ](./insert_before.jpg)
 
 ## Approach & Efficiency
 creat a Node and Linkedlist classes 

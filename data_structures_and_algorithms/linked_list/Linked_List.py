@@ -110,9 +110,7 @@ class LinkedList:
             if current.dataval == value:
                 newNode = Node(newElement)
                 if (current.nextval == None ):
-                    current.nextval = newNode
-                    newNode.nextval = None
-                    print(newNode.nextval)
+                    self.append(newNode)
                 else:
                     temp = current.nextval     
                     current.nextval = newNode
@@ -126,6 +124,8 @@ class LinkedList:
         adds a new node with the given new value immediately before the first node that has the value specified
         '''
         current = self.head
+        previous_data = ""
+
         if (self.includes(value) == False):
             print("sorry the Node not on the linked list ")
         while (current):
