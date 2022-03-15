@@ -1,5 +1,10 @@
 
 
+from hashlib import new
+from platform import node
+from re import A
+
+
 class Node:
     '''
     Class Node which define the node value and initial the next to None
@@ -72,8 +77,9 @@ class LinkedList:
         else:
             newNode = Node(newElement)     
             temp = self.head
-            newNode.nextval = temp.nextval
-            temp.nextval = newNode
+            newNode.nextval = temp
+            self.head = newNode
+            
      
 
 
@@ -98,5 +104,3 @@ class LinkedList:
 
 if __name__ == '__main__':
     ll = LinkedList()
-
-
