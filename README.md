@@ -10,5 +10,8 @@
 
 4. [Code Challenge: Class 04 // Class 05 Linked List Implementation](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README.md)
 
-5. 4. [Code Challenge: Class 07](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README_07.md)
+5. [Code Challenge: Class 07](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README_07.md)
+
+6. [Code Challenge: Class 08](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README_08.md)
+
 
