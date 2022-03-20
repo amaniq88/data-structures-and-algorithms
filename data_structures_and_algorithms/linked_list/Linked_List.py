@@ -1,11 +1,14 @@
 
 
+from asyncio import gather
 from hashlib import new
 from locale import currency
+from os import link
 from platform import node
 from re import A
 from signal import raise_signal
 from tkinter.messagebox import NO
+from typing_extensions import Self
 
 
 class Node:
@@ -42,7 +45,7 @@ class LinkedList:
 
         else:
             current = self.head
-            while current.nextval is not None:
+            while (current.nextval is not None):
                 current = current.nextval
             current.nextval = node
 
@@ -164,12 +167,62 @@ class LinkedList:
                     return valueFromEnd
             else:  # incase the value k larger than the length of linked list rais exeption 
                 raise Exception("the Number is greater than the length of linked list")
+
+
+    @staticmethod
+    def ziplists(linkList1, linkList2):
+        '''
+        method ziplist which will zip two given linked list and merge them in a certin format
+        input : Two linked list 
+        output : merged linked List
+        '''
+        try:
+            current1 = linkList1.head
+            current2 = linkList2.head
+        except AttributeError:
+            raise AttributeError
+
+        while(current1 != None  and current2 != None):
+            nextL1 = current1.nextval
+            datasave = current2
+            nextL2 = current2.nextval
+            linkList1.insert_after(current1.dataval ,current2.dataval)
+            current1 = nextL1
+            current2 = nextL2 
+        if (current2 != None):
+            while(current2 != None):
+                linkList1.insert_after(datasave.dataval ,current2.dataval)
+                datasave = current2
+                current2 = current2.nextval
+        return linkList1
      
         
     
                 
 if __name__ == '__main__':
-    pass
+        link1 = LinkedList()
+        a = 2
+        b = 3
+        c = 1
+        link1.append(Node(a))
+        link1.append(Node(b))
+        link1.append(Node(c))
+
+        print(link1)
+
+        link2 = LinkedList()
+        e= 4
+        f = 9
+        g= 5
+        link2.append(Node(e))
+        link2.append(Node(f))
+        link2.append(Node(g))
+
+        print(link2)
+    
+
+        print(LinkedList.ziplists(link1,link2)) 
+    
    
   
     
