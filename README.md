@@ -8,5 +8,7 @@
 3. [Code Challenge: Class 03 array-binary-search ](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/data_structures_and_algorithms/array_insert_shift/README.md)
     BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the value of the search key, or -1 if the element is not in the array.
 
-4. [Code Challenge: Class 04 Linked List Implementation](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README.md)
+4. [Code Challenge: Class 04 // Class 05 Linked List Implementation](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README.md)
+
+5. 4. [Code Challenge: Class 07](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README_07.md)
 

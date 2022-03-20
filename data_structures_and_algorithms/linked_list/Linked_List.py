@@ -1,8 +1,10 @@
 
 
 from hashlib import new
+from locale import currency
 from platform import node
 from re import A
+from signal import raise_signal
 from tkinter.messagebox import NO
 
 
@@ -140,12 +142,34 @@ class LinkedList:
             previous_data = current
             current = current.nextval
 
-    
-
+    def kthFromEnd(self,k):
+        '''
+        method to find 
+        k-th value from the end of a linked list.
+        argument: a number, k, as a parameter.
+        Return the node’s value that is k places from the tail of the linked list.
+        '''
+        # check if the value k is negative then rais error 
+        if (k < 0):
+            raise ValueError("Enter Positive number only")
             
+        else:
+            arrlinked = []
+            current = self.head
+            while (current):
+                arrlinked.append(current.dataval)
+                current = current.nextval
+            if(k < len(arrlinked)):
+                    valueFromEnd = arrlinked[len(arrlinked) - k -1]
+                    return valueFromEnd
+            else:  # incase the value k larger than the length of linked list rais exeption 
+                raise Exception("the Number is greater than the length of linked list")
+     
+        
     
                 
 if __name__ == '__main__':
-    a = LinkedList()
+    pass
+   
   
     
