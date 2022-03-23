@@ -10,7 +10,9 @@ output : merged Linked list which has first element from each one then second an
 
 
 ## Approach & Efficiency
-O(1)  use  the first linkedList to insert the Nodes of the scond one 
+useing the dunction insert_after which was defined in the Class Linked List by inserting the nodes from the scond inked list directly to the first linked list , 
+so just reassigned the current and Next values , IN term of Time is a O(n)  looping through  all Nodes , 
+in term of Space complexity its a O(1) not using extra arrays or linked list 
 
 
 
