@@ -14,4 +14,6 @@
 
 6. [Code Challenge: Class 08](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README_08.md)
 
+7. [Code Challenge 09](https://github.com/amaniq88/data-structures-and-algorithms/blob/stack-and-queue/stack-and-queue/README.md)
+
 
