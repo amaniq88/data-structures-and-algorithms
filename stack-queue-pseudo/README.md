@@ -2,7 +2,7 @@
 Implement a Queue using two Stacks.
 
 ## Whiteboard Process
-![Challenge 11](/Challenge11.jpg)
+![Challenge 11](./Challenge11.jpg)
 
 ## Approach & Efficiency
 using two stack instances as one work as the place to save the nodes and the other one for keeping the  node incase to enqueue new node  which O(n) for the enqueue method while its O(1) for dequque
