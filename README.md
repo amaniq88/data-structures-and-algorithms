@@ -15,6 +15,6 @@
 6. [Code Challenge: Class 08](https://github.com/amaniq88/data-structures-and-algorithms/tree/main/data_structures_and_algorithms/linked_list/README_08.md)
 
 7. [Code Challenge 10 : Stack and Queue ](https://github.com/amaniq88/data-structures-and-algorithms/blob/stack-and-queue/stack-and-queue/README.md)
-8. [Code Challenge: Class 11 : Implement a Queue using two Stacks.](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/stack-and-queue/README.md)
+8. [Code Challenge: Class 11 : Implement a Queue using two Stacks.](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/stack-queue-pseudo/README.md)
 
 
