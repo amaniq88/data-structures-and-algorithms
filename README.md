@@ -16,5 +16,6 @@
 
 7. [Code Challenge 10 : Stack and Queue ](https://github.com/amaniq88/data-structures-and-algorithms/blob/stack-and-queue/stack-and-queue/README.md)
 8. [Code Challenge: Class 11 : Implement a Queue using two Stacks.](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/stack-queue-pseudo/README.md)
+9. [Code Challenge: Class 12: First-in, First out Animal Shelter.](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/stack-queue-animal-shelter/README.md)
 
 
