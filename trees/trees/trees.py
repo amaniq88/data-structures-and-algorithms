@@ -15,13 +15,13 @@ class BinaryTree:
     '''
     def __init__(self):
         self.root = None
-        self.output=""
+        self.output= []
 
     def preorder(self):
         if (self.root == None):
             raise Exception("you have to spify the root !")
         def _walk(node):
-            self.output += str(node.value)
+            self.output.append(node.value)
 
             if node.left:
                 _walk(node.left)
@@ -39,7 +39,7 @@ class BinaryTree:
         def _walk(node):
             if node.left:
                 _walk(node.left)
-            self.output += str(node.value)
+            self.output.append(node.value)
             if node.right:
                 _walk(node.right)
         _walk(self.root)
@@ -54,7 +54,7 @@ class BinaryTree:
                 _walk(node.left)
             if node.right:
                 _walk(node.right)
-            self.output += str(node.value)
+            self.output.append(node.value)
         _walk(self.root)
         return self.output
 
@@ -146,7 +146,7 @@ if __name__== "__main__":
     test.add(6)
     test.add(1)
     # print("*********preorder************")
-    test.preorder()
+    print(test.preorder())
     print(test.Contains(2))
         # print("**********inorder***********")
         # tree.inorder()
