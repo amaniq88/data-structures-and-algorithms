@@ -35,20 +35,20 @@ def test_binary_add(Btreetest):
 # Can successfully return a collection from a preorder traversal
 def test_preorder_tree(B1treetest):
     expected = B1treetest.preorder()
-    actual = "438"
+    actual = [4,3,8]
     assert expected == actual
 
 #Can successfully return a collection from an inorder traversal
 def test_inorder_tree(B1treetest):
     expected = B1treetest.inorder()
-    actual = "348"
+    actual = [3,4,8]
     assert expected == actual
 
 
 # Can successfully return a collection from a postorder traversal
 def test_postorder_tree(B1treetest):
     expected = B1treetest.postorder()
-    actual = "384"
+    actual = [3,8,4]
     assert expected == actual
 
 # def Returns true	 contains method, given an existing  node value
