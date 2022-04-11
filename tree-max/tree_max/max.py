@@ -61,6 +61,11 @@ class BinaryTree:
 
 
     def find_maximum_value(self):
+        '''
+        Find the Maximum Value in a Binary Tree
+        where input is None 
+        output the max number 
+        '''
         if (self.root == None):
             raise Exception("Empty Tree !")
 
@@ -69,13 +74,13 @@ class BinaryTree:
             if (node == None):
                 return float('-inf')
 
-            res = node.value
-            lres = _findMax(node.left)
-            rres = _findMax(node.right)
-            if (lres > res):
-                res = lres
-            if (rres > res):
-                res = rres
-            return res
+            maxval = node.value
+            leftmax = _findMax(node.left)
+            rightmax = _findMax(node.right)
+            if (leftmax > maxval):
+                maxval = leftmax
+            if (rightmax > maxval):
+                maxval = rightmax
+            return maxval
 
         return _findMax(self.root)
