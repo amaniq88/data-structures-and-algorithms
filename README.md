@@ -21,4 +21,5 @@
 11. [Implementation: Trees](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/trees/README.md)
 12.[MAX Tree ](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/tree-max/README.md)
 13.[Breadth-first Traversal](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/tree-breadth-first/README.md)
+14.[Code Challenge: Class 18“FizzBuzz” on a k-ary tree](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/tree-fizz-buzz/README.md)
 
