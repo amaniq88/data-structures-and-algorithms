@@ -1,4 +1,8 @@
 def mergeSort(arr):
+    for h in range(len(arr)):
+        if (type(arr[h]) == str):
+            raise Exception("value Error")
+
     if len(arr) > 1:
 
 		# Finding the mid of the array
@@ -18,6 +22,7 @@ def mergeSort(arr):
         mergeSort(right)
 
         merge(left, right, arr)
+    return arr
 
 
 
@@ -27,6 +32,7 @@ def merge(left, right, arr):
 
 		# Copy data to temp arrays L[] and R[]
     while i < len(left) and j < len(right):
+        
         if left[i] < right[j]:
             arr[k] = left[i]
             i += 1
@@ -45,8 +51,3 @@ def merge(left, right, arr):
         arr[k] = right[j]
         j += 1
         k += 1
-
-    print (arr)
-
-arr = [8,4,23,42,16,15]
-mergeSort(arr)
