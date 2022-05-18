@@ -174,7 +174,7 @@ sorrted array = [4, 8, 15, 16, 23, 42]
 
 
 ### Illustrations:
-![Illustrations](pic1.jpg)
+![Illustrations](mergsort.jpg)
 
 Efficency
 Time Complexity: Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. 
