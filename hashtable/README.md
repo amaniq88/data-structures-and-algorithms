@@ -10,6 +10,10 @@ set / get / hash /key /contains
 for the Hash method take each char in the key and convert to ASCI code then find the summiation .
 for the set save the key , value pair as list of list ( to solve the collision case) inside the list 
 get / key / contain : using normal loop /IF statment to check for these methods 
+Time complexity : for keys function its O(n)  , other methods its O(1)
+A hashtable typically has a space complexity of O(n).
+
+
 
 ## API
 - set
