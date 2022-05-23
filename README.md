@@ -29,3 +29,5 @@
 16.[Merge sort Algorithm](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/mergesort/README.md)
 
 17 .[Hahtable algorithim](https://github.com/amaniq88/data-structures-and-algorithms/pull/34)
+
+18.[Challenge_31](https://github.com/amaniq88/data-structures-and-algorithms/pull/36)
