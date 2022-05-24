@@ -145,7 +145,7 @@ def printCommon(tree1, tree2):
         if (hashclass.contains(x) == True):
             common.append(x)
     if common == []:
-        common.append("No Common values are there ")
+        return "No Common Values !"
     return common
 	
 

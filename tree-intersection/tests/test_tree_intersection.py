@@ -10,9 +10,9 @@ def test_challenge_example(T1,T2):
 
 
 # No Common Values are there 
-def test_challenge_example(T1,T2):
-    expected = [100, 160, 125, 175, 200, 350, 500]
-    Actual = printCommon(T1,T2)
+def test_no_common(T1,T4):
+    expected = "No Common Values !"
+    Actual = printCommon(T1,T4)
     assert expected == Actual
 
 
