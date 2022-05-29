@@ -33,3 +33,5 @@
 18.[Challenge_31](https://github.com/amaniq88/data-structures-and-algorithms/pull/36)
 
 19.[Challenge_32](https://github.com/amaniq88/data-structures-and-algorithms/pull/38)
+
+20.[Challenge_28 Quick Sort](https://github.com/amaniq88/data-structures-and-algorithms/pull/39)
