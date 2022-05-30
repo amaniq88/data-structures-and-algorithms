@@ -35,3 +35,5 @@
 19.[Challenge_32](https://github.com/amaniq88/data-structures-and-algorithms/pull/38)
 
 20.[Challenge_28 Quick Sort](https://github.com/amaniq88/data-structures-and-algorithms/pull/39)
+
+21.[Challenge 33 Hashmap left join](https://github.com/amaniq88/data-structures-and-algorithms/blob/main/hashmap-left-join/README.md)
