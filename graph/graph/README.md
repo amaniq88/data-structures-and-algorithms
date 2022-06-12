@@ -13,6 +13,9 @@ size
 ## Approach & Efficiency
 using two classes Node and Edge to represent the Vertex and its weight 
 and save  the vertex in a dectionary and the connected nodes as linked list 
+Complexity : 
+Space : O(n)
+Time : O(n)
 
 ## API
 - add node
